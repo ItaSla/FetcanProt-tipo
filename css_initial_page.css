@@ -1,0 +1,68 @@
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    background: #2A7B9B;
+    background: linear-gradient(0deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Cabeçalho */
+header {       
+    
+    
+  
+    background: url('/trabalho/49231-3840x2160-desktop-4k-walle-wallpaper\(1\).jpg') no-repeat; height: 195px;
+    background-size: 110%;
+    background-position: center 30%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px;
+    
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Seções */
+section {
+    background: rgb(223, 246, 255);
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Botão */
+.joinBtn {
+    background-color: #00b4d8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.joinBtn:hover {
+    background-color: #0077b6;
+}
+
+/* Rodapé */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    min-height: 110px;
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
